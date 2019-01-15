@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Distance Converter</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 offset-md-3">
+          <h1 class="display-4 text-center mb-3">Distance Converter</h1>
+          <form>
+            <div class="form-group">
+              <input
+              id="mInput"
+              type="number"
+              class="form-control form-control-lg"
+              placeholder="Enter Meters...">
+            </div>
+          </form>
+
+          <div id="output">
+            <div class="card bg-danger mb-2">
+              <div class="card-body">
+                <h4>Inches: </h4>
+                <div id="iOutput"></div>
+              </div>
+            </div>
+
+            <div class="card bg-warning mb-2">
+              <div class="card-body">
+                <h4>Foots:</h4>
+                <div id="fOutput"></div>
+              </div>
+            </div>
+
+            <div class="card bg-success mb-2">
+              <div class="card-body">
+                <h4>Yards: </h4>
+                <div id="yOutput"></div>
+              </div>
+            </div>
+
+            <div class="card bg-dark mb-2">
+              <div class="card-body">
+                <h4>Miles: </h4>
+                <div id="mlOutput"></div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+  </body>
+</html>
